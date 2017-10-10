@@ -20,7 +20,7 @@ ms.assetid: c9163693-d748-46e0-842a-d9ba113ae5a8
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: mghadial
+ ms.reviewer: mghadial
 ms.suite: ems
 #ms.tgt_pltfrm:
 ms.custom: intune-azure
@@ -70,7 +70,7 @@ You do not assign these policies directly to users and devices. Instead, you ass
 11. On the **Configuration Settings** blade, choose how you want to specify the XML values that make up the configuration profile from:
 	- **Enter XML data** (for devices enrolled with Intune only) - Enter or paste an XML property list that contains the app configuration settings that you want. The format of the XML property list varies depending on the app you are configuring. Contact the supplier of the app for details about the exact format to use.
 Intune checks that the XML you entered is in a valid format. It does not check that the XML property list works with the app that it is associated with.
-To find out more about XML property lists, see [Understanding XML Property Lists](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/PropertyLists/UnderstandXMLPlist/UnderstandXMLPlist.html) in the iOS Developer Library.
+To find out more about XML property lists, see [Understanding XML Property Lists](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/PropertyLists/UnderstandXMLPlist/UnderstandXMLPlist.html) in the iOS Developer Library. There is a 1000 charater limit of the XML data you import.
 	- **Use configuration designer** (whether or not the device is enrolled with Intune) - Lets you specify XML key and value pairs directly in the portal.
 11.	When you're done, go back to the **Add Configuration Policy** blade, and hit **Create**.
 
